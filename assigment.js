@@ -27,11 +27,11 @@ console.log(shuffle(num));
 // output -- [ 1, 5, 2, 11, 3, 7 ]
 
 var num2=[2,1,5,3,11]
-console.log(shuffle(num2)
+console.log(shuffle(num2))
 // Output: [ 1, 5, 2, 11, 3 ]
             
             
             
 var num3=[1,1,1,1,1,1]
-console.log(shuffle(num3)
+console.log(shuffle(num3))
 // Output: [ 1,1,1,1,1,1 ]
