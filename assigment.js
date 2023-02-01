@@ -24,3 +24,8 @@ function shuffle(arr){
 
 var num = [2,1,5,3,11,7]
 console.log(shuffle(num));
+// output -- [ 1, 5, 2, 11, 3, 7 ]
+
+var num2=[2,1,5,3,11]
+console.log(shuffle(num2)
+// Output: [ 1, 5, 2, 11, 3 ]
