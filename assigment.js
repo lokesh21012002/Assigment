@@ -3,13 +3,13 @@ function shuffle(arr){
     for(let i=1;i<arr.length;i++){
         if(i%2==0){
             // if index id even then we insert smaller element and swap
-            if(ans[i]>ans[i-1]){
+            if(ans[i]>=ans[i-1]){
                 [ans[i],ans[i-1]]=[ans[i-1],ans[i]];
             }
         }
         else{
             // if index is odd we pick larger element and swap
-            if(ans[i]<ans[i-1])
+            if(ans[i]<=ans[i-1])
             {
             [ans[i],ans[i-1]]=[ans[i-1],ans[i]];
             }
