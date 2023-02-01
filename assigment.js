@@ -29,3 +29,9 @@ console.log(shuffle(num));
 var num2=[2,1,5,3,11]
 console.log(shuffle(num2)
 // Output: [ 1, 5, 2, 11, 3 ]
+            
+            
+            
+var num3=[1,1,1,1,1,1]
+console.log(shuffle(num3)
+// Output: [ 1,1,1,1,1,1 ]
