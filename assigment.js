@@ -20,7 +20,7 @@ function shuffle(arr){
 }
 
 //Time complexity-- O(N) where N is the size of input array.
-//Space complexity--O(N) as we are using extra array to store elements
+//Space complexity--O(N) as we are using extra array to store ans.
 
 var num = [2,1,5,3,11,7]
 console.log(shuffle(num));
